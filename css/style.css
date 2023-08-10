@@ -1,0 +1,276 @@
+html, body {
+    margin:0;
+    font-family: helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+main:after,
+nav:after,
+footer:after,
+header:after,
+section:after,
+form:after,
+div:after,
+ul:after,
+ol:after,
+dl:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+}
+hr {padding: 5px; border: none;}
+
+h1 {
+    font-size: 25px;
+    margin: 20px 20px 55px 0px;
+}
+h1>span {color: #266b77;}
+
+h3 {padding-bottom: 5px; border-bottom: 1px dotted #999; color: #266b77;}
+
+p {
+    margin: 20px 0px;
+    font-size: 16px;
+    line-height: 1.4em;
+}
+
+input {
+    padding: 8px;
+    margin: 10px;
+}
+
+.example {
+    margin-left: 310px;
+}
+
+#main, #container {
+    position: relative;
+    margin: 0 auto;
+    width: 1100px;
+    margin-top: 50px;
+}
+
+#info {
+    width: 820px;
+}
+
+.gitHub {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.logo {
+    padding-right: 14px;
+}
+
+.btn-create {
+    display: inline-block;
+    color: #fff;
+    background-color: #3b6fda;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-bottom-width: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-create:hover { background-color: #3b6fda; border-color: rgba(0,0,0,0.5); }
+.btn-create:active { background-color: #3b6fda; border-color: rgba(0,0,0,0.9); }
+
+#departments {
+    justify-content: center;
+
+}
+
+.areaHighlight{
+    border: 2px red solid;
+}
+
+a{
+    text-decoration: none;
+}
+
+.blueContainer{
+    background-color: #3b6fda;
+   border: 1px #000 solid;
+   border-radius: 2%;
+   color: #fff;
+   padding: 10px;
+   
+}
+
+.row{
+    justify-content: space-between;
+}
+
+.hiring{
+    color: red;
+    position: absolute;
+    top:20%;
+    left: 52%;
+    font-size: 14px;
+    display: block;
+}
+
+.hiring1{
+    color: red;
+    position: fixed;
+    top:20%;
+    left: 7%;
+    font-size: 14px;
+    display: block;
+}
+
+#samirhiring{
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    display: none;
+    top:29%;
+    left: 51%;
+}
+#rohithiring{
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    display: none;
+    top:40%;
+    left: 31%;
+}
+#mihaihiring{
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    display: none;
+    top:40%;
+    right: 26%;
+}
+
+.jobHeader{
+    
+}
+
+.jobBody{
+    background-color: #e9f3fc;
+}
+
+.jobBody1{
+    background-color: transparent;
+}
+
+.jobContent{
+    margin-left: 10%;
+    margin-right: 10%;
+    position: absolute;
+    top: 3%;
+    left: -10%;
+    padding-left: 2%;
+}
+
+.jobReq{
+    margin-left: 14%;
+    border-radius: 15px;
+    height: 100%;
+    width: 70%;
+}
+
+.myContainer{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.reqID{
+    width: 14%;
+}
+
+.jobTitle{
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.myRow{
+    margin-bottom: -4%;
+}
+
+.location{
+    margin-left: 1px;
+    color: #707070;
+}
+.applyBox{
+    margin-left: 1px;
+}
+
+.btnApply{
+    text-decoration: none;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #1d52bf;
+    padding-left: 24%;
+    padding-right: 24%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin-right: 5px;
+}
+
+.shareBtn{
+    width: 90px;
+    background-color: #fff;
+    border-radius: 20px;
+    border-color: #fff;
+    border: none;
+}
+
+.shareBtn:hover{
+    background-color: #e9f3fc;
+    border-color: #e9f3fc;
+}
+
+.jobDescriptionTitle{
+    font-weight: 600;
+}
+
+.datePosted{
+    margin-top: -45px;
+    color:#707070;
+    font-family: helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.greyText{
+    color: #707070;
+}
+
+.home{
+    color: #fff;
+    position: absolute;
+    right: -65px;
+    top: 5px;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+}
+.home a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.seeReports{
+    background-color: #3b6fda;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

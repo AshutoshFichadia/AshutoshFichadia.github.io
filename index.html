@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Ceridian OrgTree</title>
+  <!--Optional-->
+  <link rel="shortcut icon" href="assets/img/icon-product-dayforce.svg" />
+
+  <!--Required-->
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+</head>
+
+<body>
+  <span class="hiring" id="star">Now Hiring</span>
+  <span class="hiring1" id="star">Now Hiring</span>
+  <div class="row">
+    <div class="col-12" style="background-color: #2f67bd">
+      <center>
+        <h1 style="color: #fff">P&T Department Tree</h1>
+      </center>
+    </div>
+  </div>
+  <br /><br />
+  <div class="container">
+    <div class="row">
+      <div class="col-2">
+        <input type="text" id="mySearchDep" placeholder="Search a Department" />
+      </div>
+      <div class="col-2">
+        <input type="text" id="mySearchName" placeholder="Search a Person" />
+      </div>
+      <div class="col-1 align-items-center" style="display: flex; align-items: center;">
+        <button type="button" id="myButton" style="height: 42px; background-color: cyan;"
+          onclick="searchPerson()">Details</button>
+      </div>
+      <div class="col-7"></div>
+    </div><br><br />
+
+    <div class="row" id="departments">
+      <div class="col-2">
+        <button class="btn-create" type="button" onclick="" value="HR" id="HR">
+          <a>HR</a>
+        </button>
+      </div>
+      <div class="col-2">
+        <button class="btn-create" type="button" onclick="" value="Payroll" id="Payroll">
+          <a>Payroll</a>
+        </button>
+      </div>
+      <div class="col-2">
+        <button class="btn-create" type="button" onclick="" value="WFM" id="WFM">
+          <a>WFM</a>
+        </button>
+      </div>
+      <div class="col-2">
+        <button class="btn-create" type="button" onclick="" value="Benefits" id="Benefits">
+          <a href="benefits.html" style="text-decoration: none; color: inherit;" target="_blank">Benefits</a>
+        </button>
+      </div>
+      <div class="col-2">
+        <button class="btn-create" type="button" onclick="" value="Platform" id="Platform">
+          <a>Platform</a>
+      </div>
+      <div class="col-2">
+        <button class="btn-create" type="button" onclick="" value="CM" id="CM">
+          <a>CM</a>
+        </button>
+      </div>
+    </div><br>
+
+    <div class="row">
+      <div class="col-2">
+        <button class="btn-create" type="button" onclick="" value="Test Ops" id="TestOps">
+          <a>Test Ops</a>
+        </button>
+      </div>
+      <div class="col-2">
+        <button class="btn-create" type="button" onclick="" value="Mobile" id="Mobile">
+          <a>Mobile</a>
+        </button>
+      </div>
+      <div class="col-2">
+        <button class="btn-create" type="button" onclick="" value="Talent" id="Talent">
+          <a>Talent</a>
+        </button>
+      </div>
+      <div class="col-2">
+        <button class="btn-create" type="button" onclick="" value="Wallet" id="Wallet">
+          <a></a>Wallet
+        </button>
+      </div>
+      <div class="col-2">
+        <button class="btn-create" type="button" onclick="" value="Integrations" id="Integrations">
+          <a>Integrations</a>
+        </button>
+      </div>
+      <div class="col-2">
+        <button class="btn-create" type="button" onclick="" value="Public Sector" id="PublicSector">
+          <a>Public Sector</a>
+        </button>
+      </div>
+    </div><br>
+
+    <div class="row">
+      <div class="col-2">
+        <button class="btn-create" type="button" onclick="" value="Data & Analytics" id="DataAnalytics">
+          <a>Data & Analytics</a>
+        </button>
+      </div>
+    </div>
+
+  </div>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/treeData.js"></script>
+</body>
+
+</html>
