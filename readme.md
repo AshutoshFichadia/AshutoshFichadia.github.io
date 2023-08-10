@@ -44,7 +44,3 @@ TreeData(tree, "#element");
 </script>
 </body>
 ```
-
-## About
-
-Created with <3 by [raphamorim](http://github.com/raphamorim)
